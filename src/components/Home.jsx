@@ -1,4 +1,4 @@
-import cvPhoto from "../assets/cv-photo.jpg";
+import cvPhoto from "../assets/images/cv-photo.jpg";
 // import { useEffect, useRef, useState } from "react";
 
 const Home = () => {

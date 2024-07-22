@@ -74,7 +74,7 @@ header {
 /* --------- background ------------------- */
 
 .dev-bg {
-    background: url("./assets/headerbackground.PNG");
+    background: url("./assets/images/headerbackground.PNG");
     z-index: -20;
     height: 100%;
     width: 100%;
@@ -148,7 +148,7 @@ main {
 }
 
 .project-items {
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -161,20 +161,30 @@ main {
     border: none;
 }
 
-iframe {
-    height: 300px;
-    border: none;
-    margin-bottom: 50px;
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 340px;
+    border-bottom: 5px solid #000;
+    padding-bottom: 30px;
+}
+
+.video-container >* {
+    padding: 10px;
+}
+
+.video-container a:hover,
+.video-container a:link,
+.video-container a:active,
+.video-container a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+video {
     width: 300px;
-    border-radius: 30px;
-}
-
-.display-none {
-    display: none;
-}
-
-.display-block {
-    display: block;
 }
 
 /* --------- info ------------------- */
