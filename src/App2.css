@@ -145,6 +145,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 3500px;
 }
 
 .project-items {
@@ -159,6 +160,7 @@ main {
     margin: 10px;
     border-radius: 20px;
     border: none;
+    margin-top: 50px;
 }
 
 .video-container {
@@ -167,12 +169,21 @@ main {
     justify-content: space-around;
     align-items: center;
     width: 340px;
-    border-bottom: 5px solid #000;
+    border: 5px solid #000;
+    padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: rgb(20, 100, 255, 0.2);
+    z-index: -7;
 }
 
 .video-container >* {
     padding: 10px;
+}
+
+.video-container h2 {
+    border-bottom: 5px solid #555;
 }
 
 .video-container a:hover,
@@ -181,10 +192,18 @@ main {
 .video-container a:visited {
     color: #000;
     text-decoration: none;
+    background: rgb(0, 100, 255, 0.5);
+    border-radius: 5px;
+    border: 5px solid #555;
 }
 
 video {
     width: 300px;
+    background: rgb(0, 100, 255, 0.5);
+    border: 5px solid #555;
+    border-radius: 5px;
+    z-index: -5;
+
 }
 
 /* --------- info ------------------- */
@@ -203,6 +222,10 @@ video {
 
 .info section>h3 {
     margin: 20px 0;
+}
+
+.info > br {
+    padding-bottom: 20px;
 }
 
 .pd-bottom-20 {
@@ -322,6 +345,18 @@ footer p {
     .contact textarea {
         width: 500px;
     }
+
+    .video-container {
+        width: 600px;
+    }
+
+    video {
+        width: 500px;
+    }
+
+    .projects {
+        height: 4500px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -341,6 +376,8 @@ footer p {
 
     .info {
         padding: 100px;
+        display: flex;
+        justify-content: space-around;
     }
 
     .info section>* {
