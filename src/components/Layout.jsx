@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import Logo from "./Logo";
 import Header from "./Header";
 import Footer from "./Footer";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 const Layout = () => {
     const navBar = useRef();
@@ -15,6 +15,8 @@ const Layout = () => {
         const navButtons = Object.values(navBar.current.children);
         navButtons.forEach(e => e.style.border = "none");
         e.target.style.border = "5px solid #0af";
+
+        document.documentElement.scrollTop = "0";
     };
 
     return (

@@ -175,8 +175,18 @@ main {
     margin-bottom: 10px;
     border-radius: 20px;
     background: rgb(20, 100, 255, 0.2);
-    z-index: -7;
+    /* z-index: -7; */
+    animation: projects 1s;
 }
+
+/* @keyframes projects {
+    from {
+        width: 0;
+    }
+    to {
+        width: 340px;
+    }
+} */
 
 .video-container >* {
     padding: 10px;
@@ -195,7 +205,17 @@ main {
     background: rgb(0, 100, 255, 0.5);
     border-radius: 5px;
     border: 5px solid #555;
+    animation: videoLinks 2s;
 }
+
+/* @keyframes videoLinks {
+    from {
+        display: none;
+    }
+    to {
+        display: block;
+    }
+} */
 
 video {
     width: 300px;
@@ -203,7 +223,16 @@ video {
     border: 5px solid #555;
     border-radius: 5px;
     z-index: -5;
+    animation: video 1s;
+}
 
+@keyframes video {
+    from {
+        width: 0;
+    }
+    to {
+        width: 300px;
+    }
 }
 
 /* --------- info ------------------- */
@@ -256,6 +285,16 @@ video {
     border-radius: 10px;
     padding: 10px;
     width: 300px;
+    animation: form 1s;
+}
+
+@keyframes form {
+    from {
+        width: 0;
+    }
+    to {
+        width: 1;
+    }
 }
 
 .contact textarea {
@@ -349,9 +388,27 @@ footer p {
     .video-container {
         width: 600px;
     }
+/* 
+    @keyframes projects {
+        from {
+            width: 0;
+        }
+        to {
+            width: 600px;
+        }
+    } */
 
     video {
         width: 500px;
+    }
+
+    @keyframes video {
+        from {
+            width: 0;
+        }
+        to {
+            width: 500px;
+        }
     }
 
     .projects {
