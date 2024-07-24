@@ -61,6 +61,10 @@ nav>* {
     width: 80px;
 }
 
+nav>*:first-child {
+    border: 5px solid #0af;
+}
+
 /* --------- header ------------------- */
 
 header {

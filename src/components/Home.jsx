@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import cvPhoto from "../assets/images/cv-photo.jpg";
 
- export const showWord = (word, stateSetter) => {
+const showWord = (word, stateSetter) => {
     let i = 0;
     let wordNow = '';
 
@@ -16,7 +16,6 @@ import cvPhoto from "../assets/images/cv-photo.jpg";
 const Home = () => {
     const [name, setName] = useState();
     const [title, setTitle] = useState();
-
 
     useEffect(() => {
         showWord('Kevin Lampe', setName);

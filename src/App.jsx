@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, createContext } from "react";
 import Layout from "./components/Layout";
 import "./App2.css";
 import Projects from "./components/Projects";
@@ -6,11 +7,13 @@ import Home from "./components/Home";
 import Info from "./components/Info";
 import Contact from "./components/Contact";
 
+export const TheContext = createContext();
 
 const App = () => {
+    const [currentPage, setCurrentPage] = useState(); 
 
     return (
-        <div>
+        <TheContext.Provider value={{currentPage, setCurrentPage}}>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Layout />}>
@@ -21,7 +24,7 @@ const App = () => {
                     </Route>
                 </Routes>
             </BrowserRouter>
-        </div>
+        </TheContext.Provider>
     );
 }
 

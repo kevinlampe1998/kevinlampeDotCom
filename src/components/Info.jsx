@@ -83,7 +83,6 @@ const Info = () => {
 
         const vert2 = setInterval(() => {
             showInfo2(infoText2[i2], i2);
-            console.log(sentences2);
             i2++;
             if (i2 === infoText2.length) clearInterval(vert2);
         }, 100);
@@ -110,7 +109,7 @@ const Info = () => {
     }, []);
 
     useEffect(() => {
-        console.log(sentences2);
+        // console.log(sentences2);
     }, [sentences2]);
 
     return (
