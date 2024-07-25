@@ -107,6 +107,10 @@ main {
 
 /* --------- home ------------------- */
 
+.home {
+    height: 1000px;
+}
+
 .home section {
     width: 100%;
 }
@@ -243,6 +247,7 @@ video {
 
 .info {
     padding: 20px;
+    height: 2000px;
 }
 
 .info section {
@@ -254,7 +259,7 @@ video {
 }
 
 .info section>h3 {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .info > br {
@@ -265,11 +270,15 @@ video {
     padding-bottom: 20px;
 }
 
-.pd-bottom-20 {
+.pd-bottom-40 {
     padding-bottom: 40px;
 }
 
 /* --------- contact ------------------- */
+
+.contact {
+    height: 1500px;
+}
 
 .contact form {
     padding-top: 30px;

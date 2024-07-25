@@ -120,30 +120,30 @@ const Info = () => {
 
                 <section id="textID" className="">
                     <h3>{sentences.row0}</h3>
-                    <p>{sentences.row1}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences.row1}</p>
                     <p>{sentences.row2}</p>
                     <p>{sentences.row3}</p>
                     <p>{sentences.row4}</p>
                     <p>{sentences.row5}</p>
                     <p>{sentences.row6}</p>
                     <p>{sentences.row7}</p>
-                    <p>{sentences.row8}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences.row8}</p>
                     <p>{sentences.row9}</p>
                     <p>{sentences.row10}</p>
                     <p>{sentences.row11}</p>
                     <p>{sentences.row12}</p>
-                    <p>{sentences.row13}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences.row13}</p>
                     <p>{sentences.row14}</p>
                     <p>{sentences.row15}</p>
-                    <p>{sentences.row16}</p>
-                    <p>{sentences.row17}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences.row16}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences.row17}</p>
                     <p>{sentences.row18}</p>
                     <p>{sentences.row19}</p>
                 </section>
 
                 <section>
                     <h3>{sentences2.row0}</h3>
-                    <p>{sentences2.row1}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences2.row1}</p>
                     <p>{sentences2.row2}</p>
                     <p>{sentences2.row3}</p>
                     <p>{sentences2.row4}</p>
@@ -155,11 +155,11 @@ const Info = () => {
                     <p>{sentences2.row10}</p>
                     <p>{sentences2.row11}</p>
                     <p>{sentences2.row12}</p>
-                    <p>{sentences2.row13}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences2.row13}</p>
                     <p>{sentences2.row14}</p>
                     <p>{sentences2.row15}</p>
-                    <p>{sentences2.row16}</p>
-                    <p>{sentences2.row17}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences2.row16}</p>
+                    <p style={{marginBottom: "30px"}}>{sentences2.row17}</p>
                     <p>{sentences2.row18}</p>
                     <p>{sentences2.row19}</p>
                 </section>                
