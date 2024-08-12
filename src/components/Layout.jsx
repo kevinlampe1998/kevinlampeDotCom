@@ -19,6 +19,23 @@ const Layout = () => {
         document.documentElement.scrollTop = "0";
     };
 
+
+    useEffect(() => {
+        const navButtons = Object.values(navBar.current.children);
+        navButtons.forEach(e => e.style.border = "none");
+
+        let pageNow = window.location.href;
+        pageNow = pageNow.slice(pageNow.lastIndexOf("/"), pageNow.length);
+        pageNow = pageNow.slice(1, pageNow.length);
+        pageNow === "" ? navButtons[0].style.border = "5px solid #0af" : <></>;
+
+        navButtons.forEach(e => {
+
+            (e.text[0].toLowerCase() + e.text.slice(1, e.text.length) === pageNow) ? e.style.border = "5px solid #0af" : <></>;
+        });
+
+    }, [])
+
     return (
         <div className="layout" >
             <div className="upper">
@@ -32,7 +49,7 @@ const Layout = () => {
                 <Header />
             </div>
             <Outlet />
-            <Footer />
+            <Footer navBar={navBar}/>
         </div>
     );
 }

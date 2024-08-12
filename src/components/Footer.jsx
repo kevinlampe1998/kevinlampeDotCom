@@ -1,17 +1,26 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
+
+    const setNavBorderToWhite = (e) => {
+        const navButtons = Object.values(navBar.current.children);
+        navButtons.forEach(e => e.style.border = "none");
+        document.documentElement.scrollTop = "0";
+    };
+
     return (
         <footer>
             <div className="back-to">
                 <h4>Back to:</h4>
-                <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Info</a>
-                <a href="#">Contact</a>
+                <Link onClick={setNavBorderToWhite} to="/">Home</Link>
+                <Link onClick={setNavBorderToWhite} to="/projects">Projects</Link>
+                <Link onClick={setNavBorderToWhite} to="/info">Info</Link>
+                <Link onClick={setNavBorderToWhite} to="/contact">Contact</Link>
             </div>
             <div className="footer-contact">
                 <h4>Contact:</h4>
                 <a href="">Number: 0176 1234 5678</a>
-                <a href="">E-Mail: lampekevin@outlook.com</a>
+                <a href="">E-Mail: lampekevin@outlook.com (real)</a>
                 <a href="">Street: Developerstr. 100</a>
                 <a href="">Postal Code: 54321 Munich</a>
                 <a href="">Germany</a>
