@@ -1,5 +1,4 @@
-<h1 style="text-align:center;">lampe-kevin.com</h1>
-
+<h1 style="text-align:center;width:100%">lampe-kevin.com</h1>
 <ul>
   <li>Name: Kevin Thomas Lampe</li>
   <li>E-Mail: lampekevin@outlook.com</li>
