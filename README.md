@@ -7,7 +7,12 @@
   <li>Linkedin: https://www.linkedin.com/in/kevin-lampe-7318b2319/</li>
 </ul>
 
-I wanted a Main-Website, that represents all my Projects and which I use as Portfolio
+<br/>
+<br/>
+<br/>
+<br/>
+
+I wanted a Main-Website, that represents all my projects and which I use as portfolio
 
 
 <br/>
