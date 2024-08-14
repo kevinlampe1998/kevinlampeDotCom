@@ -11,8 +11,6 @@
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 <h4>Description</h4>
 <br/>
@@ -21,14 +19,10 @@
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 
 <img src="/src/assets/images/website-screenshot.png" width="100%"/>
 
-<br/>
-<br/>
 <br/>
 <br/>
 
