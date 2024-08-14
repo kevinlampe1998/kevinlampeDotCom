@@ -1,4 +1,7 @@
 <h1 align="center">lampe-kevin.com</h1>
+
+<h4>Contact</h4>
+<br/>
 <ul>
   <li>Name: Kevin Thomas Lampe</li>
   <li>E-Mail: lampekevin@outlook.com</li>
@@ -29,7 +32,7 @@
 <br/>
 <br/>
 
-How to use it:
+<h4>How to use it:</h4>
 
 1. Clone the repo
    ```sh
