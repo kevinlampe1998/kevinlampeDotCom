@@ -39,3 +39,8 @@ How to use it:
    ```sh
    npm install
    ```
+
+3. Run Application on Browser
+   ```sh
+   npm run dev
+   ```
