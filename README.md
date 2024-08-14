@@ -33,6 +33,7 @@
 <br/>
 
 <h4>How to use it:</h4>
+<br/>
 
 1. Clone the repo
    ```sh
