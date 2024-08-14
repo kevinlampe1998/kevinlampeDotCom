@@ -1,9 +1,11 @@
-Name: Kevin Thomas Lampe
-E-Mail: lampekevin@outlook.com
-Main-Website: www.lampe-kevin.com
-Linkedin: https://www.linkedin.com/in/kevin-lampe-7318b2319/
+<h1 style="text-align:center;">lampe-kevin.com</h1>
 
-About this Project:
+<ul>
+  <li>Name: Kevin Thomas Lampe</li>
+  <li>E-Mail: lampekevin@outlook.com</li>
+  <li>Main-Website: www.lampe-kevin.com</li>
+  <li>Linkedin: https://www.linkedin.com/in/kevin-lampe-7318b2319/</li>
+</ul>
 
 I wanted a Main-Website, that represents all my Projects and which I use as Portfolio
 
@@ -15,6 +17,11 @@ I wanted a Main-Website, that represents all my Projects and which I use as Port
 
 
 <img src="/src/assets/images/website-screenshot.png" width="100%"/>
+
+<br/>
+<br/>
+<br/>
+<br/>
 
 How to use it:
 
