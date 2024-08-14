@@ -11,7 +11,9 @@
 <br/>
 <br/>
 
-I wanted a Main-Website, that represents all my projects and which I use as portfolio
+<h4>Description</h4>
+<br/>
+<div>I wanted a Main-Website, that represents all my projects and which I use as portfolio</div>
 
 
 <br/>
