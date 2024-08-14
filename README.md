@@ -19,7 +19,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+[![Forks][forks-shield]](![GitHub forks](https://img.shields.io/github/forks/kevinlampe1998/kevinlampeDotCom?style=social)
+)
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
