@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, createContext } from "react";
 import Layout from "./components/Layout";
 import "./App2.css";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import Home from "./components/Home";
 import Info from "./components/Info";
 import Contact from "./components/Contact";

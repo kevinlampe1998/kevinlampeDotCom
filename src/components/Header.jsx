@@ -33,6 +33,9 @@ const Header = () => {
             <h1>NextJS</h1>
             <h1>HTML</h1>
             <h1>CSS/SASS</h1>
+            <h1>React</h1>
+            <h1>ExpressJS</h1>
+            <h1>MONGO DB</h1>
         </header>
     );
 }
