@@ -350,6 +350,10 @@ footer p {
     flex-direction: column;
 }
 
+.back-to a {
+    cursor: pointer;
+}
+
 /* --------- media screens ------------------- */
 
 @media screen and (min-width: 500px) {

@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+    const navigate = useNavigate();
 
     const setNavBorderToWhite = (e) => {
         const navButtons = Object.values(navBar.current.children);
         navButtons.forEach(e => e.style.border = "none");
         document.documentElement.scrollTop = "0";
+    };
+
+    const navigateToRoute = (route) => {
+        navigate(route);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     return (
@@ -16,10 +23,10 @@ const Footer = () => {
                 <Link onClick={setNavBorderToWhite} to="/projects">Projects</Link>
                 <Link onClick={setNavBorderToWhite} to="/info">Info</Link>
                 <Link onClick={setNavBorderToWhite} to="/contact">Contact</Link> */}
-                <a>Home</a>
-                <a>Projects</a>
-                <a>Info</a>
-                <a>Contact</a>
+                <a onClick={() => navigateToRoute('/')}>Home</a>
+                <a onClick={() => navigateToRoute('/projects')}>Projects</a>
+                <a onClick={() => navigateToRoute('/info')}>Info</a>
+                <a onClick={() => navigateToRoute('/contact')}>Contact</a>
             </div>
             <div className="footer-contact">
                 <h4>Contact:</h4>

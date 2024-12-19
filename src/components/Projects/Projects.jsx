@@ -8,18 +8,26 @@ import viewTube from "../../assets/videos/viewtube.mp4";
 import socialy from "../../assets/videos/socialy.mp4";
 import parallax from "../../assets/videos/natural-energy.mp4";
 import toDoManager from "../../assets/videos/to-do-manager.mp4";
+import techOase from "../../assets/videos/techoase.mp4";
 
 
 
 const projectList = [
-    {
-        title: "To Do Manager",
-        subtitle: 'MERN',
-        video: toDoManager,
-        website: "https://to-do-manager.lampe-kevin.com",
-        github: ["https://github.com/kevinlampe1998/ToDoManager-Backend",
-            'https://github.com/kevinlampe1998/ToDoManager-Frontend']
-    },
+    // {
+    //     title: "Tech Oase MERN",
+    //     subtitle: <span>The website is currently under development with Mr. Philipp Sauerl&#228;nder</span>,
+    //     video: techOase,
+    //     website: "https://techoase.com",
+    //     github: 'https://github.com/kevinlampe1998/FinalProject'
+    // },
+    // {
+    //     title: "To Do Manager",
+    //     subtitle: 'MERN',
+    //     video: toDoManager,
+    //     website: "https://to-do-manager.lampe-kevin.com",
+    //     github: ["https://github.com/kevinlampe1998/ToDoManager-Backend",
+    //         'https://github.com/kevinlampe1998/ToDoManager-Frontend']
+    // },
     {
         title: "ViewTube",
         subtitle: 'React',
