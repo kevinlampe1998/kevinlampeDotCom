@@ -9,6 +9,8 @@ import socialy from "../../assets/videos/socialy.mp4";
 import parallax from "../../assets/videos/natural-energy.mp4";
 import toDoManager from "../../assets/videos/to-do-manager.mp4";
 import techOase from "../../assets/videos/techoase.mp4";
+import amazonCopy from "../../assets/videos/amazon-copy.mp4";
+import youtubeNextjsMongodb from "../../assets/videos/youtube-nextjs-mongodb.mp4";
 
 
 
@@ -29,18 +31,18 @@ const projectList = [
     //         'https://github.com/kevinlampe1998/ToDoManager-Frontend']
     // },
     {
-        title: "ViewTube",
-        subtitle: 'React',
-        video: viewTube,
-        website: "https://viewtube.lampe-kevin.com",
-        github: "https://github.com/kevinlampe1998/ViewTube"
+        title: "Youtube Fullstack NextJS & MongoDB",
+        subtitle: 'In development',
+        video: youtubeNextjsMongodb,
+        website: "https://youtube-clone-2-nextjs-mongodb-cloudinary.vercel.app//",
+        github: "https://github.com/kevinlampe1998/youtube-clone-2-nextjs-mongodb-cloudinary"
     },
     {
-        title: "Socialy",
-        subtitle: 'React Typescript',
-        video: socialy,
-        website: "https://socialy.lampe-kevin.com",
-        github: "https://github.com/kevinlampe1998/Socialy"
+        title: "Amazon Copy",
+        subtitle: 'In development',
+        video: amazonCopy,
+        website: "https://next-js-amazon-copy.vercel.app/",
+        github: "https://github.com/kevinlampe1998/NextJS-Amazon-Copy"
     },
     {
         title: "Make You Fit",
@@ -48,6 +50,13 @@ const projectList = [
         video: makeYouFit,
         website: "https://make-you-fit.lampe-kevin.com",
         github: "https://github.com/kevinlampe1998/MakeYouFit"
+    },
+    {
+        title: "Socialy",
+        subtitle: 'React Typescript',
+        video: socialy,
+        website: "https://socialy.lampe-kevin.com",
+        github: "https://github.com/kevinlampe1998/Socialy"
     },
     {
         title: "Parallax",
@@ -62,6 +71,13 @@ const projectList = [
         video: lkCommerce,
         website: "https://lk-commerce.lampe-kevin.com",
         github: "https://github.com/kevinlampe1998/E-Commerce"
+    },
+    {
+        title: "ViewTube",
+        subtitle: 'React',
+        video: viewTube,
+        website: "https://viewtube.lampe-kevin.com",
+        github: "https://github.com/kevinlampe1998/ViewTube"
     },
     {
         title: "Space Invaders",
